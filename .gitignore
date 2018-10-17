@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 .vs/JAMCarRental/v15/.suo
 .vs/JAMCarRental/v15/Server/sqlite3/storage.ide-wal
+<<<<<<< HEAD
 JAMCarRental.Data/obj/Debug/JAMCarRental.Data.csproj.CoreCompileInputs.cache
 JAMCarRental.Data/obj/Debug/JAMCarRental.Data.csprojAssemblyReference.cache
 .vs/JAMCarRental/v15/.suo
@@ -24,3 +25,7 @@ JAMCarRental.Data/obj/Debug/JAMCarRental.Data.csproj.CoreCompileInputs.cache
 JAMCarRental.Data/obj/Debug/JAMCarRental.Data.csproj.CoreCompileInputs.cache
 JAMCarRental.BuissnessLogic/obj/Debug/JAMCarRental.BuissnessLogic.csproj.CoreCompileInputs.cache
 JAMCarRental.Data/obj/Debug/JAMCarRental.Data.csproj.CoreCompileInputs.cache
+=======
+=======
+>>>>>>> c1d0e6e699ccf184fb168fa9530f9ee78129bca7
+>>>>>>> dfb2e87befa22dda81e74217bd08dc2b8d0c797e
