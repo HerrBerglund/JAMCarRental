@@ -138,6 +138,10 @@
     <Compile Include="Migrations\20181017090116_init.designer.cs">
       <DependentUpon>20181017090116_init.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\20181017114852_init-bajs.cs" />
+    <Compile Include="Migrations\20181017114852_init-bajs.designer.cs">
+      <DependentUpon>20181017114852_init-bajs.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\JamCarRentalContextModelSnapshot.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
