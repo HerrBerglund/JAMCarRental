@@ -13,6 +13,11 @@
 *.user
 *.userosscache
 *.sln.docstates
+*.ide-shm
+
+.suo
+
+
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
@@ -524,24 +529,3 @@ $RECYCLE.BIN/
 
 
 # End of https://www.gitignore.io/api/csharp,windows,visualstudio
-<<<<<<< HEAD
-.vs/JAMCarRental/v15/.suo
-JAMCarRental.BuissnessLogic/obj/Debug/JAMCarRental.BuissnessLogic.csproj.CoreCompileInputs.cache
-JAMCarRental.BuissnessLogic/obj/Debug/JAMCarRental.BuissnessLogic.csprojAssemblyReference.cache
-JAMCarRental.Data/obj/Debug/JAMCarRental.Data.csproj.CoreCompileInputs.cache
-JAMCarRental.Data/obj/Debug/JAMCarRental.Data.csprojAssemblyReference.cache
-.vs/JAMCarRental/v15/.suo
-=======
->>>>>>> 3674e1945f0aa6ee8b2e26913c65d90c3a16ea44
-.vs/JAMCarRental/v15/.suo
-.vs/JAMCarRental/v15/Server/sqlite3/storage.ide
-.vs/JAMCarRental/v15/Server/sqlite3/storage.ide-shm
-.vs/JAMCarRental/v15/Server/sqlite3/storage.ide-wal
-.vs/JAMCarRental/v15/.suo
-.vs/JAMCarRental/v15/Server/sqlite3/storage.ide-wal
-.vs/JAMCarRental/v15/.suo
-.vs/JAMCarRental/v15/.suo
-.vs/JAMCarRental/v15/.suo
-*.ide-shm
-*.ide-shm
-*.ide-shm
