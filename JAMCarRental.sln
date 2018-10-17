@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JAMCarRental.Domain", "JAMC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JAMCarRental.Data", "JAMCarRental.Data\JAMCarRental.Data.csproj", "{3D900285-9D07-43BD-BC50-3BED725844BC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JAMCarRental.BuissnessLogic", "JAMCarRental.BuissnessLogic\JAMCarRental.BuissnessLogic.csproj", "{46E7DD6F-5F86-42FA-9C4B-5789CF613406}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{3D900285-9D07-43BD-BC50-3BED725844BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D900285-9D07-43BD-BC50-3BED725844BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D900285-9D07-43BD-BC50-3BED725844BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46E7DD6F-5F86-42FA-9C4B-5789CF613406}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46E7DD6F-5F86-42FA-9C4B-5789CF613406}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46E7DD6F-5F86-42FA-9C4B-5789CF613406}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46E7DD6F-5F86-42FA-9C4B-5789CF613406}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
