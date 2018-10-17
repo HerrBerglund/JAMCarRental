@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace JAMCarRental.Domain
 {
@@ -12,6 +9,7 @@ namespace JAMCarRental.Domain
         {
             Bookings = new List<Booking>();
         }
+
         public int Id { get; set; }
         public string RegistrationNumber { get; set; }
         public string Brand { get; set; }
