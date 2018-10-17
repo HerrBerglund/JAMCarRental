@@ -1,5 +1,6 @@
 
 .vs/JAMCarRental/v15/Server/sqlite3/db.lock
+<<<<<<< HEAD
 .vs/JAMCarRental/v15/.suo
 .vs/JAMCarRental/v15/Server/sqlite3/storage.ide-wal
 JAMCarRental.Data/obj/Debug/JAMCarRental.Data.csproj.CoreCompileInputs.cache
@@ -11,3 +12,15 @@ JAMCarRental.Data/obj/Debug/JAMCarRental.Data.csprojAssemblyReference.cache
 .vs/JAMCarRental/v15/Server/sqlite3/storage.ide-wal
 JAMCarRental.BuissnessLogic/obj/Debug/JAMCarRental.BuissnessLogic.csproj.CoreCompileInputs.cache
 JAMCarRental.BuissnessLogic/obj/Debug/JAMCarRental.BuissnessLogic.csprojAssemblyReference.cache
+=======
+<<<<<<< HEAD
+.vs/JAMCarRental/v15/.suo
+.vs/JAMCarRental/v15/Server/sqlite3/storage.ide-wal
+=======
+>>>>>>> c1d0e6e699ccf184fb168fa9530f9ee78129bca7
+>>>>>>> ea7e7a8820cf31a3175b861fc49de4d4c9d50af9
+JAMCarRental.BuissnessLogic/obj/Debug/JAMCarRental.BuissnessLogic.csproj.CoreCompileInputs.cache
+JAMCarRental.Data/obj/Debug/JAMCarRental.Data.csproj.CoreCompileInputs.cache
+JAMCarRental.Data/obj/Debug/JAMCarRental.Data.csproj.CoreCompileInputs.cache
+JAMCarRental.BuissnessLogic/obj/Debug/JAMCarRental.BuissnessLogic.csproj.CoreCompileInputs.cache
+JAMCarRental.Data/obj/Debug/JAMCarRental.Data.csproj.CoreCompileInputs.cache
