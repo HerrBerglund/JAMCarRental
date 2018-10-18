@@ -12,5 +12,19 @@ namespace JAMCarRental.BuissnessLogic
             inputUserData.Customers.Add(customer);
             inputUserData.SaveChanges();
         }
+
+        public void Change(Customer customer)
+        {
+            inputUserData.Customers.Update(customer);
+            inputUserData.SaveChanges();
+        }
+
+        public void Remove(Customer customer)
+        {
+            inputUserData.Customers.Remove(customer);
+            inputUserData.SaveChanges();
+
+        }
+
     }
 }
