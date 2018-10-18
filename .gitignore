@@ -529,3 +529,7 @@ $RECYCLE.BIN/
 
 
 # End of https://www.gitignore.io/api/csharp,windows,visualstudio
+.vs/JAMCarRental/v15/Server/sqlite3/storage.ide-shm
+.vs/JAMCarRental/v15/Server/sqlite3/storage.ide-shm
+.vs/JAMCarRental/v15/Server/sqlite3/storage.ide-shm
+JAMCarRental.BuissnessLogic/obj/Debug/JAMCarRental.BuissnessLogic.csprojAssemblyReference.cache
