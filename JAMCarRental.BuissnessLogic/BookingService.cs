@@ -1,5 +1,6 @@
 ﻿using JAMCarRental.Data;
 using JAMCarRental.Domain;
+using System;
 
 namespace JAMCarRental.BuissnessLogic
 {
@@ -16,6 +17,13 @@ namespace JAMCarRental.BuissnessLogic
         public void Remove(Booking booking)
         {
             inputUserData.Bookings.Remove(booking);
+            inputUserData.SaveChanges();
+        }
+
+        public void ReturnCar(DateTime returnTime, Booking booking)
+        {
+            booking.EndTime = returnTime;
+            inputUserData.Bookings.Update(booking);
             inputUserData.SaveChanges();
         }
     }

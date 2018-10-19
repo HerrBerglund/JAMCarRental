@@ -4,14 +4,16 @@ using JAMCarRental.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace JAMCarRental.Data.Migrations
 {
     [DbContext(typeof(JamCarRentalContext))]
-    partial class JamCarRentalContextModelSnapshot : ModelSnapshot
+    [Migration("20181019110419_addedReturnBool")]
+    partial class addedReturnBool
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

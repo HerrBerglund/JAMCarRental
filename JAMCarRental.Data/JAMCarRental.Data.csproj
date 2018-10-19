@@ -142,6 +142,10 @@
     <Compile Include="Migrations\20181017114852_init-bajs.designer.cs">
       <DependentUpon>20181017114852_init-bajs.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\20181019110419_addedReturnBool.cs" />
+    <Compile Include="Migrations\20181019110419_addedReturnBool.designer.cs">
+      <DependentUpon>20181019110419_addedReturnBool.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\JamCarRentalContextModelSnapshot.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

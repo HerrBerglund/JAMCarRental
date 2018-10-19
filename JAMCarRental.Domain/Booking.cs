@@ -11,5 +11,6 @@ namespace JAMCarRental.Domain
         public int CustomerId { get; set; }
         public DateTime StartTime { get; set; }
         public DateTime EndTime { get; set; }
+        public bool IsReturned { get; set; }
     }
 }
