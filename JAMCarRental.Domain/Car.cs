@@ -16,5 +16,6 @@ namespace JAMCarRental.Domain
         public string Mark { get; set; }
         public DateTime Year { get; set; }
         public List<Booking> Bookings { get; set; }
+        public bool IsReturned { get; set; }
     }
 }

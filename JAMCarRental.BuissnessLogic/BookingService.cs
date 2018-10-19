@@ -24,29 +24,22 @@ namespace JAMCarRental.BuissnessLogic
             inputUserData.SaveChanges();
         }
 
-        public List<string> searchAvaliableCars(DateTime starDateTime, DateTime endDateTime)
+        public List<Car> searchAvaliableCars(DateTime starDateTime, DateTime endDateTime)
         {
-            var bookings = inputUserData.Bookings.ToList();
-            //var cars = inputUserData.Cars.ToList().Select(x => x.Id == 3);
-            var okCars= new List<string>();
-            int idForTheOKCar = 0;
-         
-            foreach (var bk in bookings)
-            {
-                if (starDateTime >= bk.EndTime && endDateTime <= bk.StartTime)
-                {
-                    int idsearched = bk.CarId;
-                    var registredNumber = inputUserData.Cars.Select(x => x.RegistrationNumber);
-                    bk.CarId;
-                    okCars.Add();  
-                }
-            }
+            var query = inputUserData.Cars.Where(c =>
+                c.Bookings.Where(b => !(b.StartTime > endDateTime && b.EndTime < starDateTime)).ToList().Count == 0);
+            return query.ToList();
         }
 
-        public void ReturnCar(DateTime returnTime, Booking booking)
+        public void LendCar(Car car)
         {
-            booking.EndTime = returnTime;
-            inputUserData.Bookings.Update(booking);
+            inputUserData.Cars.Find(car.Id).IsReturned = false;
+            inputUserData.SaveChanges();
+        }
+
+        public void ReturnCar(Car car)
+        {
+            inputUserData.Cars.Find(car.Id).IsReturned = true;
             inputUserData.SaveChanges();
         }
     }

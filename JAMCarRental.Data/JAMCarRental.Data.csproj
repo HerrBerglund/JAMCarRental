@@ -146,6 +146,10 @@
     <Compile Include="Migrations\20181019110419_addedReturnBool.designer.cs">
       <DependentUpon>20181019110419_addedReturnBool.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\20181019134403_addedIsterunerd2.cs" />
+    <Compile Include="Migrations\20181019134403_addedIsterunerd2.designer.cs">
+      <DependentUpon>20181019134403_addedIsterunerd2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\JamCarRentalContextModelSnapshot.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
