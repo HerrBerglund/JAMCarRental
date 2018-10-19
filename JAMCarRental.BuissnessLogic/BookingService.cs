@@ -1,5 +1,6 @@
 ﻿using JAMCarRental.Data;
 using JAMCarRental.Domain;
+using System;
 
 namespace JAMCarRental.BuissnessLogic
 {
@@ -17,6 +18,10 @@ namespace JAMCarRental.BuissnessLogic
         {
             inputUserData.Bookings.Remove(booking);
             inputUserData.SaveChanges();
+        }
+        public List<string> searchAvaliableCars(DateTime starDateTime, DateTime endDateTime)
+        {
+            //if datetime is between cars booking stop until start.
         }
     }
 }
