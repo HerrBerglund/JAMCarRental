@@ -1,6 +1,10 @@
 ﻿using JAMCarRental.Data;
 using JAMCarRental.Domain;
 using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Linq.Expressions;
+using System.Security.Cryptography.X509Certificates;
 
 namespace JAMCarRental.BuissnessLogic
 {
@@ -19,18 +23,31 @@ namespace JAMCarRental.BuissnessLogic
             inputUserData.Bookings.Remove(booking);
             inputUserData.SaveChanges();
         }
-<<<<<<< HEAD
+
         public List<string> searchAvaliableCars(DateTime starDateTime, DateTime endDateTime)
         {
-            //if datetime is between cars booking stop until start.
-=======
+            var bookings = inputUserData.Bookings.ToList();
+            //var cars = inputUserData.Cars.ToList().Select(x => x.Id == 3);
+            var okCars= new List<string>();
+            int idForTheOKCar = 0;
+         
+            foreach (var bk in bookings)
+            {
+                if (starDateTime >= bk.EndTime && endDateTime <= bk.StartTime)
+                {
+                    int idsearched = bk.CarId;
+                    var registredNumber = inputUserData.Cars.Select(x => x.RegistrationNumber);
+                    bk.CarId;
+                    okCars.Add();  
+                }
+            }
+        }
 
         public void ReturnCar(DateTime returnTime, Booking booking)
         {
             booking.EndTime = returnTime;
             inputUserData.Bookings.Update(booking);
             inputUserData.SaveChanges();
->>>>>>> 1c9ec24cdd639169d6f255ed6f4c4d57c0aaa0cc
         }
     }
 }
