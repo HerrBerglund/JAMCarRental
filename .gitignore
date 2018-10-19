@@ -542,6 +542,12 @@ JAMCarRental.BuissnessLogic/obj/Debug/JAMCarRental.BuissnessLogic.csproj.CoreCom
 .vs/JAMCarRental/v15/Server/sqlite3/storage.ide-wal
 .vs/JAMCarRental/v15/Server/sqlite3/storage.ide-shm
 .vs/JAMCarRental/v15/.suo
+<<<<<<< HEAD
+=======
 .vs/JAMCarRental/v15/Server/sqlite3/storage.ide-wal
 .vs/JAMCarRental/v15/Server/sqlite3/storage.ide-shm
+<<<<<<< HEAD
 .vs/JAMCarRental/v15/.suo
+=======
+>>>>>>> f9815a6994486d8168192b12660cf0b126a41d1d
+>>>>>>> ccd842305e40c236964df680ef737f28fe2f9a91
